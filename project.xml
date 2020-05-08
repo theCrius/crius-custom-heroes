@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>/mods/Crius Custom Heroes/</ModDataPath>
+	<Title>Crius Custom Heroes</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>1</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Class Tweaks</Tags>
+		<Tags>Gameplay Tweaks</Tags>
+	</Tags>
+	<ItemDescription> Based on Powerful Heroes Vanilla that was reworking all the base game classes + shieldbreaker. All the classes up to 'Color of Madness' has been reworked instead and included the new mechanics from the latest version of the game (proc on crits for example). The game will turn way easier, but not completly dumb mode. Green maps are now realy easy, orange maps are normal, red maps can be difficult, but not that hard.</ItemDescription>
+	<PublishedFileId></PublishedFileId>
+</project>
+

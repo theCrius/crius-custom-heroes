@@ -1,0 +1,62 @@
+resistances: .stun 20% .poison 60% .bleed 20% .disease 20% .move 20% .debuff 30% .death_blow 67% .trap 10%
+crit: .effects "on_crit_lamia"
+weapon: .name "lamia_weapon_0" .atk 0% .dmg 4 9 .crit 8% .spd 6
+weapon: .name "lamia_weapon_1" .atk 0% .dmg 5 10 .crit 11% .spd 10 .upgradeRequirementCode 0
+weapon: .name "lamia_weapon_2" .atk 0% .dmg 6 12 .crit 14% .spd 12 .upgradeRequirementCode 1
+weapon: .name "lamia_weapon_3" .atk 0% .dmg 8 16 .crit 19% .spd 13 .upgradeRequirementCode 2
+weapon: .name "lamia_weapon_4" .atk 0% .dmg 9 17 .crit 25% .spd 15 .upgradeRequirementCode 3
+armour: .name "lamia_armour_0" .def 5% .prot 0 .hp 35 .spd 0
+armour: .name "lamia_armour_1" .def 10% .prot 0 .hp 39 .spd 0 .upgradeRequirementCode 0
+armour: .name "lamia_armour_2" .def 15% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 1
+armour: .name "lamia_armour_3" .def 20% .prot 0 .hp 49 .spd 0 .upgradeRequirementCode 2
+armour: .name "lamia_armour_4" .def 25% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "the_veil" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self the_veil_horror the_veil_buff_1 .beast_effects switch_mode_human_self the_veil_stress_heal_party_1 the_veil_debuff_1 the_veil_bark .is_continue_turn true .per_turn_limit 1
+combat_skill: .id "the_veil" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self the_veil_horror the_veil_buff_2 .beast_effects switch_mode_human_self the_veil_stress_heal_party_2 the_veil_debuff_2 the_veil_bark .is_continue_turn true .per_turn_limit 1
+combat_skill: .id "the_veil" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self the_veil_horror the_veil_buff_3 .beast_effects switch_mode_human_self the_veil_stress_heal_party_3 the_veil_debuff_3 the_veil_bark .is_continue_turn true .per_turn_limit 1
+combat_skill: .id "the_veil" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self the_veil_horror the_veil_buff_4 .beast_effects switch_mode_human_self the_veil_stress_heal_party_4 the_veil_debuff_4 the_veil_bark .is_continue_turn true .per_turn_limit 1
+combat_skill: .id "the_veil" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self the_veil_horror the_veil_buff_5 .beast_effects switch_mode_human_self the_veil_stress_heal_party_5 the_veil_debuff_5 the_veil_bark .is_continue_turn true .per_turn_limit 1
+combat_skill: .id "refresh" .level 0 .heal 2 4 .launch 43 .target @4321  .effect "Cure" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "refresh" .level 1 .heal 3 5 .launch 43 .target @4321  .effect "Cure" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "refresh" .level 2 .heal 4 6 .launch 43 .target @4321  .effect "Cure" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "refresh" .level 3 .heal 5 7 .launch 43 .target @4321  .effect "Cure" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "refresh" .level 4 .heal 6 8 .launch 43 .target @4321  .effect "Cure" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "arietta" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 43 .target @1234 .is_crit_valid True  .effect "Arietta Self Stress Heal 1" "Arietta Stress Heal 1" "Arietta Clear Horror Self 1" "Arietta Clear Horror 1" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "arietta" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 43 .target @1234 .is_crit_valid True  .effect "Arietta Self Stress Heal 2" "Arietta Stress Heal 2" "Arietta Clear Horror Self 2" "Arietta Clear Horror 2" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "arietta" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 43 .target @1234 .is_crit_valid True  .effect "Arietta Self Stress Heal 3" "Arietta Stress Heal 3" "Arietta Clear Horror Self 3" "Arietta Clear Horror 3" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "arietta" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 43 .target @1234 .is_crit_valid True  .effect "Arietta Self Stress Heal 4" "Arietta Stress Heal 4" "Arietta Clear Horror Self 4" "Arietta Clear Horror 4" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "arietta" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 43 .target @1234 .is_crit_valid True  .effect "Arietta Self Stress Heal 5" "Arietta Stress Heal 5" "Arietta Clear Horror Self 5" "Arietta Clear Horror 5" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "captivate" .level 0 .type "ranged" .atk 100% .dmg -100% .crit -11% .launch 43 .target 1234  .is_crit_valid True .ignore_guard true  .effect "Pull 1A" "Captivate Debuff 1" "Captivate Debuff 2 1" "Captivate Clear Guarded Target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "captivate" .level 1 .type "ranged" .atk 105% .dmg -100% .crit -10% .launch 43 .target 1234  .is_crit_valid True .ignore_guard true  .effect "Pull 1B" "Captivate Debuff 2" "Captivate Debuff 2 2" "Captivate Clear Guarded Target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "captivate" .level 2 .type "ranged" .atk 110% .dmg -100% .crit -9% .launch 43 .target 1234  .is_crit_valid True .ignore_guard true  .effect "Pull 1C" "Captivate Debuff 3" "Captivate Debuff 2 3" "Captivate Clear Guarded Target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "captivate" .level 3 .type "ranged" .atk 115% .dmg -100% .crit -8% .launch 43 .target 1234  .is_crit_valid True .ignore_guard true  .effect "Pull 1D" "Captivate Debuff 4" "Captivate Debuff 2 4" "Captivate Clear Guarded Target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "captivate" .level 4 .type "ranged" .atk 120% .dmg -100% .crit -7% .launch 43 .target 1234  .is_crit_valid True .ignore_guard true  .effect "Pull 1E" "Captivate Debuff 5" "Captivate Debuff 2 5" "Captivate Clear Guarded Target" .valid_modes human .is_stall_invalidating false
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 0 .launch 4321
+combat_skill: .id "petrifying_gaze" .level 0 .type "ranged" .atk 95% .dmg -90% .crit -7% .launch 4321 .target ~123 .is_crit_valid True  .effect "Lamia Stun 1" "Gaze Debuff 1" "Gaze Shuffle Self" .valid_modes beast .per_battle_limit 3
+combat_skill: .id "petrifying_gaze" .level 1 .type "ranged" .atk 100% .dmg -90% .crit -6% .launch 4321 .target ~123 .is_crit_valid True  .effect "Lamia Stun 2" "Gaze Debuff 2" "Gaze Shuffle Self" .valid_modes beast .per_battle_limit 3
+combat_skill: .id "petrifying_gaze" .level 2 .type "ranged" .atk 105% .dmg -90% .crit -5% .launch 4321 .target ~123 .is_crit_valid True  .effect "Lamia Stun 3" "Gaze Debuff 3" "Gaze Shuffle Self" .valid_modes beast .per_battle_limit 3
+combat_skill: .id "petrifying_gaze" .level 3 .type "ranged" .atk 110% .dmg -90% .crit -4% .launch 4321 .target ~123 .is_crit_valid True  .effect "Lamia Stun 4" "Gaze Debuff 4" "Gaze Shuffle Self" .valid_modes beast .per_battle_limit 3
+combat_skill: .id "petrifying_gaze" .level 4 .type "ranged" .atk 115% .dmg -90% .crit -3% .launch 4321 .target ~123 .is_crit_valid True  .effect "Lamia Stun 5" "Gaze Debuff 5" "Gaze Shuffle Self" .valid_modes beast .per_battle_limit 3
+combat_skill: .id "slither" .level 0 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 3 .launch 432 .target 1234 .is_crit_valid True  .effect "Slither Bonus Blight DMG 1" "Slither Bonus Stun DMG 1" "Slither Dodge Buff 1"  .valid_modes beast
+combat_skill: .id "slither" .level 1 .type "melee" .atk 100% .dmg 0% .crit 8% .move 0 3 .launch 432 .target 1234 .is_crit_valid True  .effect "Slither Bonus Blight DMG 2" "Slither Bonus Stun DMG 2" "Slither Dodge Buff 2"  .valid_modes beast
+combat_skill: .id "slither" .level 2 .type "melee" .atk 105% .dmg 0% .crit 9% .move 0 3 .launch 432 .target 1234 .is_crit_valid True  .effect "Slither Bonus Blight DMG 3" "Slither Bonus Stun DMG 3" "Slither Dodge Buff 3"  .valid_modes beast
+combat_skill: .id "slither" .level 3 .type "melee" .atk 110% .dmg 0% .crit 10% .move 0 3 .launch 432 .target 1234 .is_crit_valid True  .effect "Slither Bonus Blight DMG 4" "Slither Bonus Stun DMG 4" "Slither Dodge Buff 4"  .valid_modes beast
+combat_skill: .id "slither" .level 4 .type "melee" .atk 115% .dmg 0% .crit 11% .move 0 3 .launch 432 .target 1234 .is_crit_valid True  .effect "Slither Bonus Blight DMG 5" "Slither Bonus Stun DMG 5" "Slither Dodge Buff 5"  .valid_modes beast
+combat_skill: .id "hiss" .level 0 .type "melee" .atk 95% .dmg -75% .crit -5% .move 3 0 .launch 321 .target ~12 .is_crit_valid True  .effect "Hiss Blight 1" "Hiss Debuff 1" .valid_modes beast
+combat_skill: .id "hiss" .level 1 .type "melee" .atk 100% .dmg -75% .crit -4% .move 3 0 .launch 321 .target ~12 .is_crit_valid True  .effect "Hiss Blight 2" "Hiss Debuff 2" .valid_modes beast
+combat_skill: .id "hiss" .level 2 .type "melee" .atk 105% .dmg -75% .crit -3% .move 3 0 .launch 321 .target ~12 .is_crit_valid True  .effect "Hiss Blight 3" "Hiss Debuff 3" .valid_modes beast
+combat_skill: .id "hiss" .level 3 .type "melee" .atk 110% .dmg -75% .crit -2% .move 3 0 .launch 321 .target ~12 .is_crit_valid True  .effect "Hiss Blight 4" "Hiss Debuff 4" .valid_modes beast
+combat_skill: .id "hiss" .level 4 .type "melee" .atk 115% .dmg -75% .crit -1% .move 3 0 .launch 321 .target ~12 .is_crit_valid True  .effect "Hiss Blight 5" "Hiss Debuff 5" .valid_modes beast
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "amphitheater"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 3
+id_index: .index 1332
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+extra_battle_loot: .code "LAMIA_JOURNAL" .count 1
+extra_curio_loot: .code "LAMIA_JOURNAL" .count 1
+mode: .id human .is_raid_default true
+mode: .id beast .bark_override_id str_medusa_bark .affliction_combat_skill_id the_veil .battle_complete_combat_skill_id the_veil .stress_damage_per_turn 5
+mode: .id lamia_tooltip_1
+mode: .id lamia_tooltip_2
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 8 .card_chance 1.0
