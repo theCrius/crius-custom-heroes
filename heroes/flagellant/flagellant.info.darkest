@@ -5,11 +5,11 @@ weapon: .name "flagellant_weapon_1" .atk 0% .dmg 6 10 .crit 3% .spd 6 .upgradeRe
 weapon: .name "flagellant_weapon_2" .atk 0% .dmg 7 12 .crit 4% .spd 8 .upgradeRequirementCode 1
 weapon: .name "flagellant_weapon_3" .atk 0% .dmg 8 14 .crit 5% .spd 8 .upgradeRequirementCode 2
 weapon: .name "flagellant_weapon_4" .atk 0% .dmg 10 18 .crit 6% .spd 9 .upgradeRequirementCode 3
-armour: .name "flagellant_armour_0" .def 0% .prot 0 .hp 36 .spd 0
-armour: .name "flagellant_armour_1" .def 5% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 0
-armour: .name "flagellant_armour_2" .def 10% .prot 0 .hp 48 .spd 0 .upgradeRequirementCode 1
-armour: .name "flagellant_armour_3" .def 15% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 2
-armour: .name "flagellant_armour_4" .def 20% .prot 0 .hp 60 .spd 0 .upgradeRequirementCode 3
+armour: .name "flagellant_armour_0" .def 0% .prot 0 .hp 42 .spd 0
+armour: .name "flagellant_armour_1" .def 5% .prot 0 .hp 47 .spd 0 .upgradeRequirementCode 0
+armour: .name "flagellant_armour_2" .def 10% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 1
+armour: .name "flagellant_armour_3" .def 15% .prot 0 .hp 60 .spd 0 .upgradeRequirementCode 2
+armour: .name "flagellant_armour_4" .def 20% .prot 0 .hp 65 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "punish" .level 0 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 1" "Punish Bleed Debuff 1" .generation_guaranteed true
 combat_skill: .id "punish" .level 1 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 2" "Punish Bleed Debuff 2"
 combat_skill: .id "punish" .level 2 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 3" "Punish Bleed Debuff 3"
