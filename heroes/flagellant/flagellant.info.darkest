@@ -1,4 +1,4 @@
-resistances: .stun 50% .poison 30% .bleed 65% .disease 40% .move 50% .debuff 30% .death_blow 73% .trap 0%
+resistances: .stun 50% .poison 30% .bleed 85% .disease 40% .move 50% .debuff 30% .death_blow 73% .trap 0%
 crit: .effects "on_crit_bleedchance"
 weapon: .name "flagellant_weapon_0" .atk 0% .dmg 5 8 .crit 2% .spd 6
 weapon: .name "flagellant_weapon_1" .atk 0% .dmg 6 10 .crit 3% .spd 6 .upgradeRequirementCode 0

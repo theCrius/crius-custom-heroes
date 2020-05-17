@@ -48,32 +48,32 @@ effect: .name "Flagellant Exhaust" .target performer .chance 100% .buff_ids flag
 
 
 // reclaim
-effect: .name "Flag Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2	.on_hit true .on_miss true
-effect: .name "Flag Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
-effect: .name "Flag Healdot 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2	.on_hit true .on_miss true
-effect: .name "Flag Healdot 4" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
-effect: .name "Flag Healdot 5" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
+effect: .name "Flag Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 2	.on_hit true .on_miss true
+effect: .name "Flag Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
+effect: .name "Flag Healdot 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 5 .duration 3	.on_hit true .on_miss true
+effect: .name "Flag Healdot 4" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 5 .duration 3	.on_hit true .on_miss true
+effect: .name "Flag Healdot 5" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 6 .duration 4	.on_hit true .on_miss true
 
 effect: .name "Flag Self Wound 1" .target "performer" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
 effect: .name "Flag Self Wound 2" .target "performer" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
-effect: .name "Flag Self Wound 3" .target "performer" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
-effect: .name "Flag Self Wound 4" .target "performer" .chance 150%  .dotBleed 4 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
-effect: .name "Flag Self Wound 5" .target "performer" .chance 160%  .dotBleed 5 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 3" .target "performer" .chance 140%  .dotBleed 4 .duration 4	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 4" .target "performer" .chance 150%  .dotBleed 4 .duration 4	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 5" .target "performer" .chance 160%  .dotBleed 5 .duration 5	.on_hit true .on_miss true .can_apply_on_death true
 
 // redeem
-effect: .name "Flag Super Heal 1" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.33	.on_hit true .on_miss false .queue true
-effect: .name "Flag Super Heal 2" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.35	.on_hit true .on_miss false	.queue true
-effect: .name "Flag Super Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.375	.on_hit true .on_miss false	.queue true
-effect: .name "Flag Super Heal 4" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.40	.on_hit true .on_miss false .queue true
-effect: .name "Flag Super Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.43	.on_hit true .on_miss false .queue true
+effect: .name "Flag Super Heal 1" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.30	.on_hit true .on_miss false .queue true
+effect: .name "Flag Super Heal 2" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.40	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Super Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.50	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Super Heal 4" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.60	.on_hit true .on_miss false .queue true
+effect: .name "Flag Super Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.70	.on_hit true .on_miss false .queue true
 
 
 // endure
-effect: .name "Flag Steal Stress 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 10	.on_hit true .on_miss false .queue true
-effect: .name "Flag Steal Stress 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 11	.on_hit true .on_miss false .queue true
-effect: .name "Flag Steal Stress 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 12	.on_hit true .on_miss false .queue true
-effect: .name "Flag Steal Stress 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 13	.on_hit true .on_miss false .queue true
-effect: .name "Flag Steal Stress 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 14	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 20	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 25	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 30	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 35	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 40	.on_hit true .on_miss false .queue true
 
 effect: .name "Flag Self Stress 1" .target "performer" .curio_result_type "negative" .chance 100% .stress 10	.on_hit true .on_miss false	.queue true
 effect: .name "Flag Self Stress 2" .target "performer" .curio_result_type "negative" .chance 100% .stress 9	.on_hit true .on_miss false	.queue true
@@ -82,10 +82,10 @@ effect: .name "Flag Self Stress 4" .target "performer" .curio_result_type "negat
 effect: .name "Flag Self Stress 5" .target "performer" .curio_result_type "negative" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true
 
 effect: .name "Flag Endure Speed Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Flag Endure Speed Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Flag Endure Speed Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Flag Endure Speed Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
-effect: .name "Flag Endure Speed Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5	.on_hit true .on_miss false .queue true .apply_once true
 
 
 // suffer
