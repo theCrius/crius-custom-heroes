@@ -1,0 +1,120 @@
+
+
+//Arietta
+effect: .name "Arietta Self Stress Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Stress Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Stress Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Stress Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Stress Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+
+effect: .name "Arietta Stress Heal 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Stress Heal 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Stress Heal 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "Arietta Stress Heal 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "Arietta Stress Heal 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true
+
+effect: .name "Arietta Self Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF1"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF2"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF3"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF4"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Self Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF5"	.on_hit true .on_miss false .queue true
+
+effect: .name "Arietta Buff 1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF1"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Buff 2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF2"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Buff 3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF3"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Buff 4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF4"	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Buff 5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "ARIETTA_STRESS_BUFF5"	.on_hit true .on_miss false .queue true
+
+effect: .name "Arietta Clear Horror Self 1" .target "performer" .curio_result_type "positive" .chance 66% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror Self 2" .target "performer" .curio_result_type "positive" .chance 74% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror Self 3" .target "performer" .curio_result_type "positive" .chance 82% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror Self 4" .target "performer" .curio_result_type "positive" .chance 90% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror Self 5" .target "performer" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Arietta Clear Horror 1" .target "target" .curio_result_type "positive" .chance 66% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror 2" .target "target" .curio_result_type "positive" .chance 74% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror 3" .target "target" .curio_result_type "positive" .chance 82% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror 4" .target "target" .curio_result_type "positive" .chance 90% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Arietta Clear Horror 5" .target "target" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Captivate Debuff 1" .target "target" .chance 100% .buff_ids "captivate_def_debuff_1" "lamia_block_guard" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Captivate Debuff 2" .target "target" .chance 110% .buff_ids "captivate_def_debuff_2" "lamia_block_guard" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Captivate Debuff 3" .target "target" .chance 120% .buff_ids "captivate_def_debuff_3" "lamia_block_guard" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Captivate Debuff 4" .target "target" .chance 130% .buff_ids "captivate_def_debuff_4" "lamia_block_guard" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Captivate Debuff 5" .target "target" .chance 140% .buff_ids "captivate_def_debuff_5" "lamia_block_guard" .duration 3 .on_hit true .on_miss false .queue true
+
+effect: .name "Captivate Debuff 2 1" .target "target" .chance 100% .buff_type crit_received_chance .buff_amount 4% .on_hit true .on_miss false .queue false
+effect: .name "Captivate Debuff 2 2" .target "target" .chance 110% .buff_type crit_received_chance .buff_amount 5% .on_hit true .on_miss false .queue false
+effect: .name "Captivate Debuff 2 3" .target "target" .chance 120% .buff_type crit_received_chance .buff_amount 6% .on_hit true .on_miss false .queue false
+effect: .name "Captivate Debuff 2 4" .target "target" .chance 130% .buff_type crit_received_chance .buff_amount 7% .on_hit true .on_miss false .queue false
+effect: .name "Captivate Debuff 2 5" .target "target" .chance 140% .buff_type crit_received_chance .buff_amount 8%  .on_hit true .on_miss false .queue false
+
+effect: .name "Captivate Clear Guarded Target" .target "target" .chance 100% .clearguarded 1 .on_hit true .on_miss false
+
+effect: .name "the_veil_buff_1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 15% .speed_rating_add 3 .duration 4	.on_hit true .on_miss false .queue true
+effect: .name "the_veil_buff_2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 16% .speed_rating_add 3 .duration 4	.on_hit true .on_miss false .queue true
+effect: .name "the_veil_buff_3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 17% .speed_rating_add 4 .duration 4	.on_hit true .on_miss false .queue true
+effect: .name "the_veil_buff_4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 18% .speed_rating_add 4 .duration 4	.on_hit true .on_miss false .queue true
+effect: .name "the_veil_buff_5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 20% .speed_rating_add 5 .duration 4	.on_hit true .on_miss false .queue true
+
+effect: .name "the_veil_stress_heal_party_1" .target "performer_group_other" .chance 100% .healstress 1 .on_hit true .on_miss false .queue true
+effect: .name "the_veil_stress_heal_party_2" .target "performer_group_other" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true
+effect: .name "the_veil_stress_heal_party_3" .target "performer_group_other" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true
+effect: .name "the_veil_stress_heal_party_4" .target "performer_group_other" .chance 100% .healstress 3 .on_hit true .on_miss false .queue true
+effect: .name "the_veil_stress_heal_party_5" .target "performer_group_other" .chance 100% .healstress 3 .on_hit true .on_miss false .queue true
+
+effect: .name "the_veil_debuff_1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -15% .speed_rating_add -3 .on_hit true .on_miss false .queue false
+effect: .name "the_veil_debuff_2" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -14% .speed_rating_add -3 .on_hit true .on_miss false .queue false
+effect: .name "the_veil_debuff_3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -13% .speed_rating_add -2 .on_hit true .on_miss false .queue false
+effect: .name "the_veil_debuff_4" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -12% .speed_rating_add -2 .on_hit true .on_miss false .queue false
+effect: .name "the_veil_debuff_5" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -1  .on_hit true .on_miss false .queue false
+
+effect: .name the_veil_bark 	.target performer .chance 50% .bark the_veil_bark .on_hit true .on_miss true .queue true
+
+effect: .name "Slither Bonus Blight DMG 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 45%	.damage_high_multiply 45%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Blight DMG 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 52%	.damage_high_multiply 52%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Blight DMG 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 60%	.damage_high_multiply 60%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Blight DMG 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 67%	.damage_high_multiply 67%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Blight DMG 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 75%	.damage_high_multiply 75%	.on_hit true .on_miss false
+
+effect: .name "Slither Bonus Stun DMG 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 45%	.damage_high_multiply 45%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Stun DMG 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 52%	.damage_high_multiply 52%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Stun DMG 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 60%	.damage_high_multiply 60%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Stun DMG 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 67%	.damage_high_multiply 67%	.on_hit true .on_miss false
+effect: .name "Slither Bonus Stun DMG 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 75%	.damage_high_multiply 75%	.on_hit true .on_miss false
+
+effect: .name "Slither Dodge Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 15% .duration 3	.on_hit true .on_miss true .queue true
+effect: .name "Slither Dodge Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 16% .duration 3	.on_hit true .on_miss true .queue true
+effect: .name "Slither Dodge Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 17% .duration 3	.on_hit true .on_miss true .queue true
+effect: .name "Slither Dodge Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 18% .duration 3	.on_hit true .on_miss true .queue true
+effect: .name "Slither Dodge Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 20% .duration 3	.on_hit true .on_miss true .queue true
+
+effect: .name "Gaze Debuff 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .defense_rating_add -10% .on_hit true .on_miss false
+effect: .name "Gaze Debuff 2" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -3 .defense_rating_add -14% .on_hit true .on_miss false
+effect: .name "Gaze Debuff 3" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -4 .defense_rating_add -17% .on_hit true .on_miss false
+effect: .name "Gaze Debuff 4" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -4 .defense_rating_add -21% .on_hit true .on_miss false
+effect: .name "Gaze Debuff 5" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -5 .defense_rating_add -25% .on_hit true .on_miss false
+
+effect: .name "Lamia Stun 1" .target "target" .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lamia Stun 2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lamia Stun 3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lamia Stun 4" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Lamia Stun 5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Gaze Shuffle Self" .target "performer" .shuffletarget .chance 300%	.on_hit true .on_miss true .apply_once true .can_apply_on_death true
+
+effect: .name "Hiss Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hiss Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hiss Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hiss Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Hiss Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 7 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Hiss Debuff 1" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add -10% .on_hit true .on_miss false
+effect: .name "Hiss Debuff 2" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -12% .on_hit true .on_miss false
+effect: .name "Hiss Debuff 3" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -15% .on_hit true .on_miss false
+effect: .name "Hiss Debuff 4" .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -17% .on_hit true .on_miss false
+effect: .name "Hiss Debuff 5" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -20% .on_hit true .on_miss false
+
+effect: .name "the_veil_horror" .target "performer_group_other" .chance 100%  .dotStress 3 .duration 4 .on_hit true .on_miss false .queue true
+
+effect: .name "on_crit_lamia"    .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_lamia_buff" .duration 2	.on_hit true .on_miss false .apply_once true
